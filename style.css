@@ -1,0 +1,142 @@
+html {
+  background-color: lightgray;
+  border: solid 5px;
+  padding-bottom: 80%;
+  padding-top: 100%;
+}
+.coins {
+  background-color: yellow;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 25%;
+  height: 2.9%;
+  position: absolute;
+  top: -1%;
+}
+.diamond {
+  background-color: yellow;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 25%;
+  height: 2.7%;
+  position: absolute;
+  top: 3%;
+}
+.button {
+  width: 70px;
+  height: 70px;
+  border: solid;
+  border-radius: 10px;
+  font-size: 35px;
+  background-color: lightgreen;
+  margin-top: 1px;
+  margin-right: -3px;
+}
+.inventory {
+  background-color: brown;
+  border: solid 1px;
+  border-radius: 5px;
+  left: 290px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  font-size: 50px;
+}
+.buttonCol {
+  visibility: visible;
+  position: absolute;
+  top: 95px;
+  border: solid 2px;
+  border-radius: 14px;
+  background-color: green;
+  padding-right: 0;
+  width: 90%;
+}
+.upgradeMenu {
+  visibility: hidden;
+  position: absolute;
+  top: 140px;
+  right: 65px;
+  width: 260px;
+  height: 389px;
+  background-color: blue;
+  z-index: 2;
+  border: solid 2px gray;
+  border-radius: 15px;
+}
+.invLay {
+  visibility: hidden;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.upgOff {
+  position: absolute;
+  border: solid 1px red;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: darkred;
+  right: -5px;
+  top: -5px;
+}
+#updMenuImg {
+  position: absolute;
+  top: -51px;
+  left: 37%;
+  font-size: 50px;
+  border: solid 2px gray;
+  border-radius: 0 0 20px 20px;
+  background-color: white;
+  border-top-color: blue;
+}
+#updMenulevelText {
+  color: white;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+#updMenulevel {
+  color: white;
+  position: absolute;
+  top: 61px;
+  left: 80px;
+}
+#updMenuTime {
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+#updMenuTypeText {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+#updMenuType {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 45px;
+}
+#updMenuStatus {
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+#updMenuStyle {
+  border: dashed 2px yellow;
+  border-radius: 10px;
+  position: absolute;
+  top: 60px;
+  left: 5px;
+  padding-right: 180px;
+  padding-top: 80px;
+}
