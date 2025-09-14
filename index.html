@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <title>в разработке</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="invLay"></div>
+  <div class="upgradeMenu">
+    <p id="updMenuStyle"></p>
+    <button class="upgOff" onclick="улучшение(false)">❌</button>
+    <p id="updMenuImg"></p>
+    <p id="updMenulevelText" >уровень:</p>
+    <p id="updMenulevel"></p>
+    <p id="updMenuTime">интервал: 60 сек</p>
+    <p id="updMenuTypeText">тип:</p>
+    <p id="updMenuType"></p>
+    <p id="updMenuStatus">статус:</p>
+    <button id="updMenuUpgButton">улучшить</button>
+    <p id="updMenuCost"></p>
+  </div>
+  <p class="coins" class="coinsDis"><strong>🪙 0</strong></p>
+  <p class="diamond"><strong>💎0</strong></p>
+  <button class="inventory">🎒</button>
+  <br>
+  <div class="buttonCol">
+    <button class="button" id="button1" onclick="улучшение(true, true, парамКнопокПоля[0], парамКнопокПоля[1], парамКнопокПоля[2])">🔥</button>
+    <button class="button" id="button2" onclick="улучшение(true, true, парамКнопокПоля[3], парамКнопокПоля[4], парамКнопокПоля[5])">🪨</button>
+    <button class="button" id="button3" onclick="улучшение(true, true, парамКнопокПоля[6], парамКнопокПоля[7], парамКнопокПоля[8])">🏪</button>
+    <button class="button" id="button4" onclick="улучшение(true, false, парамКнопокПоля[9], парамКнопокПоля[10], парамКнопокПоля[11])">➕</button>
+    <button class="button" id="button5" onclick="улучшение(true, false, парамКнопокПоля[12], парамКнопокПоля[13], парамКнопокПоля[14])">➕</button>
+    <button class="button" id="button6" onclick="улучшение(true, false, парамКнопокПоля[15], парамКнопокПоля[16], парамКнопокПоля[17])">➕</button>
+    <button class="button" id="button7" onclick="улучшение(true, false, парамКнопокПоля[18], парамКнопокПоля[19], парамКнопокПоля[20])">➕</button>
+    <button class="button" id="button8" onclick="улучшение(true, false, парамКнопокПоля[21], парамКнопокПоля[22], парамКнопокПоля[23])">➕</button>
+    <button class="button" id="button9" onclick="улучшение(true, false, парамКнопокПоля[24], парамКнопокПоля[25], парамКнопокПоля[26])">➕</button>
+    <button class="button" id="button10" onclick="улучшение(true, false, парамКнопокПоля[27], парамКнопокПоля[28], парамКнопокПоля[29])">➕</button>
+    <button class="button" id="button11" onclick="улучшение(true, false, парамКнопокПоля[30], парамКнопокПоля[31], парамКнопокПоля[32])">➕</button>
+<button class="button" id="button12" onclick="улучшение(true, false, парамКнопокПоля[33], парамКнопокПоля[34], парамКнопокПоля[35])">➕</button>
+<button class="button" id="button13" onclick="улучшение(true, false, парамКнопокПоля[36], парамКнопокПоля[37], парамКнопокПоля[38])">➕</button>
+<button class="button" id="button14" onclick="улучшение(true, false, парамКнопокПоля[39], парамКнопокПоля[40], парамКнопокПоля[41])">➕</button>
+<button class="button" id="button15" onclick="улучшение(true, false, парамКнопокПоля[42], парамКнопокПоля[43], парамКнопокПоля[44])">➕</button>
+    <button class="button" id="button16" onclick="улучшение(true, false, парамКнопокПоля[45], парамКнопокПоля[46], парамКнопокПоля[47])">➕</button>
+<button class="button" id="button17" onclick="улучшение(true, false, парамКнопокПоля[48], парамКнопокПоля[49], парамКнопокПоля[50])">➕</button>
+<button class="button" id="button18" onclick="улучшение(true, false, парамКнопокПоля[51], парамКнопокПоля[52], парамКнопокПоля[53])">➕</button>
+<button class="button" id="button19" onclick="улучшение(true, false, парамКнопокПоля[54], парамКнопокПоля[55], парамКнопокПоля[56])">➕</button>
+<button class="button" id="button20" onclick="улучшение(true, false, парамКнопокПоля[57], парамКнопокПоля[58], парамКнопокПоля[59])">➕</button>
+    <button class="button" id="button21" onclick="улучшение(true, false, парамКнопокПоля[60], парамКнопокПоля[61], парамКнопокПоля[62])">➕</button>
+<button class="button" id="button22" onclick="улучшение(true, false, парамКнопокПоля[63], парамКнопокПоля[64], парамКнопокПоля[65])">➕</button>
+<button class="button" id="button23" onclick="улучшение(true, false, парамКнопокПоля[66], парамКнопокПоля[67], парамКнопокПоля[68])">➕</button>
+<button class="button" id="button24" onclick="улучшение(true, false, парамКнопокПоля[69], парамКнопокПоля[70], парамКнопокПоля[71])">➕</button>
+<button class="button" id="button25" onclick="улучшение(true, false, парамКнопокПоля[72], парамКнопокПоля[73], парамКнопокПоля[74])">➕</button>
+<button class="button" id="button26" onclick="улучшение(true, false, парамКнопокПоля[75], парамКнопокПоля[76], парамКнопокПоля[77])">➕</button>
+<button class="button" id="button27" onclick="улучшение(true, false, парамКнопокПоля[78], парамКнопокПоля[79], парамКнопокПоля[80])">➕</button>
+<button class="button" id="button28" onclick="улучшение(true, false, парамКнопокПоля[81], парамКнопокПоля[82], парамКнопокПоля[83])">➕</button>
+<button class="button" id="button29" onclick="улучшение(true, false, парамКнопокПоля[84], парамКнопокПоля[85], парамКнопокПоля[86])">➕</button>
+<button class="button" id="button30" onclick="улучшение(true, false, парамКнопокПоля[87], парамКнопокПоля[88], парамКнопокПоля[89])">➕</button>
+    <button class="button" id="button31" onclick="улучшение(true, false, парамКнопокПоля[90], парамКнопокПоля[91], парамКнопокПоля[92])">➕</button>
+<button class="button" id="button32" onclick="улучшение(true, false, парамКнопокПоля[93], парамКнопокПоля[94], парамКнопокПоля[95])">➕</button>
+<button class="button" id="button33" onclick="улучшение(true, false, парамКнопокПоля[96], парамКнопокПоля[97], парамКнопокПоля[98])">➕</button>
+<button class="button" id="button34" onclick="улучшение(true, false, парамКнопокПоля[99], парамКнопокПоля[100], парамКнопокПоля[101])">➕</button>
+<button class="button" id="button35" onclick="улучшение(true, false, парамКнопокПоля[102], парамКнопокПоля[103], парамКнопокПоля[104])">➕</button>
+    <button class="button" id="button36" onclick="улучшение(true, false, парамКнопокПоля[105], парамКнопокПоля[106], парамКнопокПоля[107])">➕</button>
+<button class="button" id="button37" onclick="улучшение(true, false, парамКнопокПоля[108], парамКнопокПоля[109], парамКнопокПоля[110])">➕</button>
+<button class="button" id="button38" onclick="улучшение(true, false, парамКнопокПоля[111], парамКнопокПоля[112], парамКнопокПоля[113])">➕</button>
+<button class="button" id="button39" onclick="улучшение(true, false, парамКнопокПоля[114], парамКнопокПоля[115], парамКнопокПоля[116])">➕</button>
+<button class="button" id="button40" onclick="улучшение(true, false, парамКнопокПоля[117], парамКнопокПоля[118], парамКнопокПоля[119])">➕</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+  </html>
