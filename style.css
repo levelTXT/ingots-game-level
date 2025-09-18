@@ -1,7 +1,7 @@
 html {
   background-color: lightgray;
   border: solid 5px;
-  padding-bottom: 80%;
+  padding-bottom: 100%;
   padding-top: 100%;
 }
 body {
@@ -10,27 +10,29 @@ body {
 }
 .coins {
   background-color: yellow;
-  border: solid 1px;
-  border-radius: 10px;
+  border: solid 0.2vw;
+  border-radius: 3.5vw;
   width: 25%;
   height: 2.9%;
   position: absolute;
   top: -1%;
+  font-size: 100%;
 }
 .diamond {
   background-color: yellow;
-  border: solid 1px;
-  border-radius: 10px;
+  border: solid 0.2vw;
+  border-radius: 3.5vw;
   width: 25%;
   height: 2.7%;
   position: absolute;
   top: 3%;
+  font-size: 100%;
 }
 .button {
-  width: 19.65%;
+  width: 19.70%;
   height: 12.3%;
   border: solid;
-  border-radius: 10px;
+  border-radius: 3vw;
   font-size: 35px;
   background-color: lightgreen;
   margin-top: 1px;
@@ -50,7 +52,7 @@ body {
 .buttonCol {
   position: absolute;
   top: 95px;
-  border: solid 2px;
+  border: solid 0.5vw black;
   border-radius: 14px;
   background-color: green;
   padding-right: 0;
