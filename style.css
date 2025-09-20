@@ -1,75 +1,12 @@
 html {
   background-color: lightgray;
-  border: solid 5px;
-  padding-bottom: 100%;
-  padding-top: 100%;
+  border: solid 1.8vw;
+  width: 100%;
+  height: 100%;
 }
 body {
   width: 100%;
   height: 100%;
-}
-.coins {
-  background-color: yellow;
-  border: solid 0.2vw;
-  border-radius: 3.5vw;
-  width: 25%;
-  height: 2.9%;
-  position: absolute;
-  top: -1%;
-  font-size: 100%;
-}
-.diamond {
-  background-color: yellow;
-  border: solid 0.2vw;
-  border-radius: 3.5vw;
-  width: 25%;
-  height: 2.7%;
-  position: absolute;
-  top: 3%;
-  font-size: 100%;
-}
-.button {
-  width: 19.70%;
-  height: 12.3%;
-  border: solid;
-  border-radius: 3vw;
-  font-size: 35px;
-  background-color: lightgreen;
-  margin-top: 1px;
-  margin-right: -3px;
-}
-.inventory {
-  background-color: brown;
-  border: solid 1px;
-  border-radius: 5px;
-  left: 290px;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  top: 10px;
-  font-size: 50px;
-}
-.buttonCol {
-  position: absolute;
-  top: 95px;
-  border: solid 0.5vw black;
-  border-radius: 14px;
-  background-color: green;
-  padding-right: 0;
-  width: 90%;
-  height: 83%;
-}
-.upgradeMenu {
-  visibility: hidden;
-  position: absolute;
-  top: 140px;
-  right: 65px;
-  width: 260px;
-  height: 389px;
-  background-color: blue;
-  z-index: 2;
-  border: solid 2px gray;
-  border-radius: 15px;
 }
 .invLay {
   visibility: hidden;
@@ -81,23 +18,88 @@ body {
   background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
+.coins {
+  background-color: yellow;
+  border: solid 0.2vw;
+  border-radius: 3.5vw;
+  width: 25%;
+  height: 2.9%;
+  position: absolute;
+  left: 3%;
+  top: -1%;
+  font-size: 2.4vh;
+}
+.diamond {
+  background-color: yellow;
+  border: solid 0.2vw;
+  border-radius: 3.5vw;
+  width: 25%;
+  height: 2.7%;
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  font-size: 2.4vh;
+}
+.button {
+  width: 19.70%;
+  height: 12.3%;
+  border: solid;
+  border-radius: 3vw;
+  font-size: 250%;
+  background-color: lightgreen;
+  margin-top: 1px;
+  margin-right: -3px;
+}
+.buttonCol {
+  position: absolute;
+  top: 14%;
+  border: solid 0.5vw black;
+  border-radius: 3.3vw;
+  background-color: green;
+  padding-right: 0;
+  width: 90%;
+  height: 83%;
+}
+.inventory {
+  background-color: brown;
+  border: solid 0.3vw;
+  border-radius: 1.2vw;
+  right: 1%;
+  top: 2%;
+  width: 20%;
+  height: 11.5%;
+  position: absolute;
+  font-size: 270%;
+}
+.upgradeMenu {
+  visibility: hidden;
+  position: absolute;
+  top: 20%;
+  right: 16.5%;
+  width: 65%;
+  height: 55%;
+  background-color: blue;
+  z-index: 2;
+  border: solid 0.5vw gray;
+  border-radius: 6%;
+}
 .upgOff {
   position: absolute;
-  border: solid 1px red;
-  border-radius: 20px;
-  font-size: 25px;
+  border: solid 0.2vw red;
+  border-radius: 5vw;
+  font-size: 150%;
   padding: 5px;
   background-color: darkred;
-  right: -5px;
-  top: -5px;
+  right: -2%;
+  top: -2%;
 }
 #updMenuImg {
   position: absolute;
   top: -51px;
   left: 37%;
-  font-size: 50px;
-  border: solid 2px gray;
-  border-radius: 0 0 20px 20px;
+  font-size: 310%;
+  border: solid 0.5vw gray;
+  border-radius: 0 0 20% 20%;
   background-color: white;
   border-top-color: blue;
 }
@@ -145,4 +147,4 @@ body {
   left: 5px;
   padding-right: 180px;
   padding-top: 80px;
-  }
+}
