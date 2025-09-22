@@ -45,7 +45,7 @@ body {
   height: 12.3%;
   border: solid;
   border-radius: 3vw;
-  font-size: 2.3rem;
+  font-size: 5.5vh;
   background-color: lightgreen;
   margin-top: 1px;
   margin-right: -3px;
@@ -58,7 +58,7 @@ body {
   background-color: green;
   padding-right: 0;
   width: 96%;
-  height: 85%;
+  height: 82%;
 }
 .inventory {
   background-color: brown;
@@ -69,7 +69,7 @@ body {
   width: 22%;
   height: 11.5%;
   position: absolute;
-  font-size: 3em;
+  font-size: 6.5vh;
 }
 .upgradeMenu {
   visibility: hidden;
@@ -96,7 +96,7 @@ body {
 #updMenuImg {
   position: absolute;
   top: -51px;
-  left: 37%;
+  left: 50%;
   font-size: 310%;
   border: solid 0.5vw gray;
   border-radius: 0 0 20% 20%;
