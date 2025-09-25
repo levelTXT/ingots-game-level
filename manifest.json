@@ -1,0 +1,37 @@
+{
+  "lang": "ru",
+  "name": "ingot-game: соединяй, улучшай, отдыхай",
+  "short_name": "ingot-game",
+  "description": "добывай и соединяй",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "dot2025_0925_0220_10.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "dot2025_0925_0220_16.png",
+      "sizes": "84x84",
+      "type": "image/png"
+    },
+    {
+      "src": "dot2025_0925_0220_19.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    },
+    {
+      "src": "dot2025_0925_0220_24.png",
+      "sizes": "336x336",
+      "type": "image/png"
+    },
+    {
+      "src": "dot2025_0925_0220_27.png",
+      "sizes": "672x672",
+      "type": "image/png"
+    }
+  ]
+}
